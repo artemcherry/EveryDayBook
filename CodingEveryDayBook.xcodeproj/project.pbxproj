@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		445218C02733D3C80037E1E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445218BF2733D3C80037E1E6 /* AppDelegate.swift */; };
+		445218C22733D3C80037E1E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445218C12733D3C80037E1E6 /* SceneDelegate.swift */; };
+		445218C42733D3C80037E1E6 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445218C32733D3C80037E1E6 /* MainTabBarController.swift */; };
+		445218C92733D3CB0037E1E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445218C82733D3CB0037E1E6 /* Assets.xcassets */; };
+		445218CC2733D3CB0037E1E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445218CA2733D3CB0037E1E6 /* LaunchScreen.storyboard */; };
+		445218D72733D8A90037E1E6 /* EverydayBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445218D62733D8A90037E1E6 /* EverydayBookViewController.swift */; };
+		445218DA27342EE70037E1E6 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445218D927342EE70037E1E6 /* TaskCell.swift */; };
+		445218DE27343B440037E1E6 /* StackViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445218DD27343B440037E1E6 /* StackViewExtension.swift */; };
+		445218E0273473220037E1E6 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445218DF273473220037E1E6 /* UILabelExtension.swift */; };
+		445218E2273533440037E1E6 /* TaskAddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445218E1273533440037E1E6 /* TaskAddTableViewController.swift */; };
+		445218E4273536510037E1E6 /* NewTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445218E3273536510037E1E6 /* NewTaskCell.swift */; };
+		445218E627353D590037E1E6 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445218E527353D590037E1E6 /* HeaderCell.swift */; };
+		445218E9273546760037E1E6 /* AlertStartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445218E8273546760037E1E6 /* AlertStartData.swift */; };
+		445218EB2735519D0037E1E6 /* AlertEndDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445218EA2735519D0037E1E6 /* AlertEndDate.swift */; };
+		445218ED273585660037E1E6 /* AlertForCellName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445218EC273585660037E1E6 /* AlertForCellName.swift */; };
+		445218F1273593040037E1E6 /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445218F0273593040037E1E6 /* Realm.swift */; };
+		445218F52735955C0037E1E6 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445218F42735955C0037E1E6 /* RealmManager.swift */; };
+		445218F7273679810037E1E6 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445218F6273679810037E1E6 /* TaskDetailViewController.swift */; };
+		756BAB2E8CFF34CA48BD70D6 /* Pods_CodingEveryDayBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C06C49C3BFD572BF102B627 /* Pods_CodingEveryDayBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		445218BC2733D3C80037E1E6 /* CodingEveryDayBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingEveryDayBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		445218BF2733D3C80037E1E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		445218C12733D3C80037E1E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		445218C32733D3C80037E1E6 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		445218C82733D3CB0037E1E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		445218CB2733D3CB0037E1E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		445218CD2733D3CB0037E1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445218D62733D8A90037E1E6 /* EverydayBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EverydayBookViewController.swift; sourceTree = "<group>"; };
+		445218D927342EE70037E1E6 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		445218DD27343B440037E1E6 /* StackViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewExtension.swift; sourceTree = "<group>"; };
+		445218DF273473220037E1E6 /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		445218E1273533440037E1E6 /* TaskAddTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAddTableViewController.swift; sourceTree = "<group>"; };
+		445218E3273536510037E1E6 /* NewTaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskCell.swift; sourceTree = "<group>"; };
+		445218E527353D590037E1E6 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		445218E8273546760037E1E6 /* AlertStartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertStartData.swift; sourceTree = "<group>"; };
+		445218EA2735519D0037E1E6 /* AlertEndDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertEndDate.swift; sourceTree = "<group>"; };
+		445218EC273585660037E1E6 /* AlertForCellName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertForCellName.swift; sourceTree = "<group>"; };
+		445218F0273593040037E1E6 /* Realm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
+		445218F42735955C0037E1E6 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		445218F6273679810037E1E6 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
+		9C06C49C3BFD572BF102B627 /* Pods_CodingEveryDayBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodingEveryDayBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C017713E3F94092EBC9B6FCB /* Pods-CodingEveryDayBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodingEveryDayBook.release.xcconfig"; path = "Target Support Files/Pods-CodingEveryDayBook/Pods-CodingEveryDayBook.release.xcconfig"; sourceTree = "<group>"; };
+		CFB2D3ABD6FC9A2F247CC321 /* Pods-CodingEveryDayBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodingEveryDayBook.debug.xcconfig"; path = "Target Support Files/Pods-CodingEveryDayBook/Pods-CodingEveryDayBook.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		445218B92733D3C80037E1E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				756BAB2E8CFF34CA48BD70D6 /* Pods_CodingEveryDayBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		445218B32733D3C80037E1E6 = {
+			isa = PBXGroup;
+			children = (
+				445218BE2733D3C80037E1E6 /* CodingEveryDayBook */,
+				9EE9829C2019D62DA6514868 /* Pods */,
+				601C78A9A0A251EFF34D623D /* Frameworks */,
+				445218BD2733D3C80037E1E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		445218BD2733D3C80037E1E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				445218BC2733D3C80037E1E6 /* CodingEveryDayBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		445218BE2733D3C80037E1E6 /* CodingEveryDayBook */ = {
+			isa = PBXGroup;
+			children = (
+				445218D32733D5880037E1E6 /* Controllers */,
+				445218F3273595350037E1E6 /* Services */,
+				445218D827342EC20037E1E6 /* Model */,
+				445218D42733D5950037E1E6 /* Application */,
+				445218D52733D5A70037E1E6 /* Resources */,
+				445218DB27343B040037E1E6 /* Extensions */,
+			);
+			path = CodingEveryDayBook;
+			sourceTree = "<group>";
+		};
+		445218D32733D5880037E1E6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				445218C32733D3C80037E1E6 /* MainTabBarController.swift */,
+				445218D62733D8A90037E1E6 /* EverydayBookViewController.swift */,
+				445218E1273533440037E1E6 /* TaskAddTableViewController.swift */,
+				445218F6273679810037E1E6 /* TaskDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		445218D42733D5950037E1E6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				445218BF2733D3C80037E1E6 /* AppDelegate.swift */,
+				445218C12733D3C80037E1E6 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		445218D52733D5A70037E1E6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				445218C82733D3CB0037E1E6 /* Assets.xcassets */,
+				445218CA2733D3CB0037E1E6 /* LaunchScreen.storyboard */,
+				445218CD2733D3CB0037E1E6 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		445218D827342EC20037E1E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				445218E7273546640037E1E6 /* Alert */,
+				445218F2273593160037E1E6 /* Cells */,
+				445218F0273593040037E1E6 /* Realm.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		445218DB27343B040037E1E6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				445218DC27343B2C0037E1E6 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		445218DC27343B2C0037E1E6 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				445218DD27343B440037E1E6 /* StackViewExtension.swift */,
+				445218DF273473220037E1E6 /* UILabelExtension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		445218E7273546640037E1E6 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				445218E8273546760037E1E6 /* AlertStartData.swift */,
+				445218EA2735519D0037E1E6 /* AlertEndDate.swift */,
+				445218EC273585660037E1E6 /* AlertForCellName.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		445218F2273593160037E1E6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				445218D927342EE70037E1E6 /* TaskCell.swift */,
+				445218E3273536510037E1E6 /* NewTaskCell.swift */,
+				445218E527353D590037E1E6 /* HeaderCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		445218F3273595350037E1E6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				445218F42735955C0037E1E6 /* RealmManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		601C78A9A0A251EFF34D623D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C06C49C3BFD572BF102B627 /* Pods_CodingEveryDayBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EE9829C2019D62DA6514868 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFB2D3ABD6FC9A2F247CC321 /* Pods-CodingEveryDayBook.debug.xcconfig */,
+				C017713E3F94092EBC9B6FCB /* Pods-CodingEveryDayBook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		445218BB2733D3C80037E1E6 /* CodingEveryDayBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 445218D02733D3CB0037E1E6 /* Build configuration list for PBXNativeTarget "CodingEveryDayBook" */;
+			buildPhases = (
+				AD7B63E19A334665FD0D5923 /* [CP] Check Pods Manifest.lock */,
+				445218B82733D3C80037E1E6 /* Sources */,
+				445218B92733D3C80037E1E6 /* Frameworks */,
+				445218BA2733D3C80037E1E6 /* Resources */,
+				B99BFEEFEBEBC59A94F38420 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodingEveryDayBook;
+			productName = CodingEveryDayBook;
+			productReference = 445218BC2733D3C80037E1E6 /* CodingEveryDayBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		445218B42733D3C80037E1E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					445218BB2733D3C80037E1E6 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 445218B72733D3C80037E1E6 /* Build configuration list for PBXProject "CodingEveryDayBook" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 445218B32733D3C80037E1E6;
+			productRefGroup = 445218BD2733D3C80037E1E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				445218BB2733D3C80037E1E6 /* CodingEveryDayBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		445218BA2733D3C80037E1E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445218CC2733D3CB0037E1E6 /* LaunchScreen.storyboard in Resources */,
+				445218C92733D3CB0037E1E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD7B63E19A334665FD0D5923 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodingEveryDayBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B99BFEEFEBEBC59A94F38420 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodingEveryDayBook/Pods-CodingEveryDayBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodingEveryDayBook/Pods-CodingEveryDayBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodingEveryDayBook/Pods-CodingEveryDayBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		445218B82733D3C80037E1E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445218E4273536510037E1E6 /* NewTaskCell.swift in Sources */,
+				445218D72733D8A90037E1E6 /* EverydayBookViewController.swift in Sources */,
+				445218C42733D3C80037E1E6 /* MainTabBarController.swift in Sources */,
+				445218C02733D3C80037E1E6 /* AppDelegate.swift in Sources */,
+				445218DE27343B440037E1E6 /* StackViewExtension.swift in Sources */,
+				445218F1273593040037E1E6 /* Realm.swift in Sources */,
+				445218ED273585660037E1E6 /* AlertForCellName.swift in Sources */,
+				445218E9273546760037E1E6 /* AlertStartData.swift in Sources */,
+				445218E2273533440037E1E6 /* TaskAddTableViewController.swift in Sources */,
+				445218F52735955C0037E1E6 /* RealmManager.swift in Sources */,
+				445218E627353D590037E1E6 /* HeaderCell.swift in Sources */,
+				445218E0273473220037E1E6 /* UILabelExtension.swift in Sources */,
+				445218C22733D3C80037E1E6 /* SceneDelegate.swift in Sources */,
+				445218F7273679810037E1E6 /* TaskDetailViewController.swift in Sources */,
+				445218EB2735519D0037E1E6 /* AlertEndDate.swift in Sources */,
+				445218DA27342EE70037E1E6 /* TaskCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		445218CA2733D3CB0037E1E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				445218CB2733D3CB0037E1E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		445218CE2733D3CB0037E1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		445218CF2733D3CB0037E1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		445218D12733D3CB0037E1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB2D3ABD6FC9A2F247CC321 /* Pods-CodingEveryDayBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 924B4U9W24;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CodingEveryDayBook/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodle.ios.CodingEveryDayBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		445218D22733D3CB0037E1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C017713E3F94092EBC9B6FCB /* Pods-CodingEveryDayBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 924B4U9W24;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CodingEveryDayBook/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodle.ios.CodingEveryDayBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		445218B72733D3C80037E1E6 /* Build configuration list for PBXProject "CodingEveryDayBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445218CE2733D3CB0037E1E6 /* Debug */,
+				445218CF2733D3CB0037E1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		445218D02733D3CB0037E1E6 /* Build configuration list for PBXNativeTarget "CodingEveryDayBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				445218D12733D3CB0037E1E6 /* Debug */,
+				445218D22733D3CB0037E1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 445218B42733D3C80037E1E6 /* Project object */;
+}
